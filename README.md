@@ -1,7 +1,7 @@
 # OrangeHRM
 
 ## Overview
-<b<OrangeHRM</b> Automation Testing is a project dedicated to automating the testing of the OrangeHRM (Human Resource Management System) using Selenium WebDriver and Java. The primary goal is to ensure the stability and reliability of the OrangeHRM web application by automating various test scenarios such as employee management, attendance tracking, recruitment, leave management, and more.
+<b>OrangeHRM</b> Automation Testing is a project dedicated to automating the testing of the OrangeHRM (Human Resource Management System) using Selenium WebDriver and Java. The primary goal is to ensure the stability and reliability of the OrangeHRM web application by automating various test scenarios such as employee management, attendance tracking, recruitment, leave management, and more.
 
 <br>
 
