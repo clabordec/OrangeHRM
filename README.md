@@ -15,7 +15,7 @@
 
 <br>
 
-Features
+## Features
 Automated functional tests for core OrangeHRM modules.
 End-to-end testing using Selenium WebDriver.
 Written in Java with TestNG as the test framework.
