@@ -16,13 +16,16 @@
 <br>
 
 ## Features
-Automated functional tests for core OrangeHRM modules.
-End-to-end testing using Selenium WebDriver.
-Written in Java with TestNG as the test framework.
-Configurable test environments using Maven.
-Page Object Model (POM) for scalable and maintainable tests.
-Supports running tests in various browsers (Chrome, Firefox, etc.).
-Technologies
+- Automated functional tests for core OrangeHRM modules.
+- End-to-end testing using Selenium WebDriver.
+- Written in Java with TestNG as the test framework.
+- Configurable test environments using Maven.
+- Page Object Model (POM) for scalable and maintainable tests.
+- Supports running tests in various browsers (Chrome, Firefox, etc.).
+
+<br>
+
+## Technologies
 Java (programming language)
 Selenium WebDriver (browser automation tool)
 TestNG (testing framework)
