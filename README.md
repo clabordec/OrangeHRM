@@ -26,21 +26,24 @@
 <br>
 
 ## Technologies
-Java (programming language)
-Selenium WebDriver (browser automation tool)
-TestNG (testing framework)
-Maven (dependency and build management)
-Page Object Model (POM) (for maintainable test code)
-Log4j (for logging)
-ExtentReports (for generating test reports)
-Project Setup
-Prerequisites
-Java (JDK 8 or higher)
-Maven (for dependency management)
-ChromeDriver or GeckoDriver (for browser automation)
-Git (to clone the repository)
-Installation
-Clone the repository:
+- Java (programming language)
+- Selenium WebDriver (browser automation tool)
+- TestNG (testing framework)
+- Maven (dependency and build management)
+- Page Object Model (POM) (for maintainable test code)
+- Log4j (for logging)
+- ExtentReports (for generating test reports)
+
+<br>
+
+## Project Setup
+- Prerequisites
+- Java (JDK 8 or higher)
+- Maven (for dependency management)
+- ChromeDriver or GeckoDriver (for browser automation)
+- Git (to clone the repository)
+- Installation
+- Clone the repository:
 
 bash
 Copy code
