@@ -84,18 +84,22 @@ mvn test
 You can also run tests directly from your IDE (like Eclipse or IntelliJ) by right-clicking the `TestNG.xml` file and selecting "Run As -> TestNG Suite".
 
 
-Running Tests in Different Browsers
-To run tests in different browsers, update the browser property in config.properties:
+### Running Tests in Different Browsers
+To run tests in different browsers, update the `browser` property in `config.properties`:
 
-properties
+```properties
 Copy code
 browser=firefox
-You can choose from supported browsers like chrome, firefox, etc.
+```
 
-Test Structure
-The project follows the Page Object Model (POM) design pattern to keep the test scripts clean, organized, and maintainable. Here's the general structure:
+You can choose from supported browsers like `chrome`, `firefox`, etc.
 
-bash
+<br>
+
+## Test Structure
+The project follows the <b>Page Object Model (POM)</b> design pattern to keep the test scripts clean, organized, and maintainable. Here's the general structure:
+
+```bash
 
 src/
 │
@@ -108,9 +112,13 @@ src/
 │   └── java/
 │       ├── tests/          # Test classes (organized by module)
 │       └── resources/      # TestNG.xml and config files
-Pages: Contains the web page representations using the Page Object Model. Each class corresponds to a different page/module in OrangeHRM.
-Tests: Contains the test scripts. Each test class covers specific functionalities of the OrangeHRM.
-Reporting
+```
+- <b>Pages</b>: Contains the web page representations using the Page Object Model. Each class corresponds to a different page/module in OrangeHRM.
+- <b>Tests</b>: Contains the test scripts. Each test class covers specific functionalities of the OrangeHRM.
+
+<br>
+
+## Reporting
 Test results are logged using Log4j and detailed HTML reports are generated using ExtentReports. You can find the reports under:
 
 bash
