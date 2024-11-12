@@ -121,15 +121,19 @@ src/
 ## Reporting
 Test results are logged using Log4j and detailed HTML reports are generated using ExtentReports. You can find the reports under:
 
-bash
-Copy code
+```bash
 target/extent-reports/
-Contributing
+```
+
+## Contributing
 Contributions are welcome! If you want to contribute to this project, follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -m 'Add new feature').
+4. Push to the branch (git push origin feature-branch).
+5. Open a pull request.
+
+<br>
+
 Please make sure your code follows the project's coding guidelines and is well-tested before submitting a pull request.
