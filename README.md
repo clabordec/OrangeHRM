@@ -42,14 +42,19 @@
 - Maven (for dependency management)
 - ChromeDriver or GeckoDriver (for browser automation)
 - Git (to clone the repository)
-- Installation
-- Clone the repository:
 
-bash
+<br>
+
+## Installation
+1. Clone the repository:
+
+```bash
 Copy code
 git clone https://github.com/your-username/orangehrm-automation.git
 cd orangehrm-automation
-Install dependencies using Maven:
+```
+
+2. Install dependencies using Maven:
 
 bash
 Copy code
