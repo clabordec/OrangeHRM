@@ -51,15 +51,18 @@
 ```bash
 Copy code
 git clone https://github.com/your-username/orangehrm-automation.git
+
 cd orangehrm-automation
 ```
 
 2. Install dependencies using Maven:
 
-bash
+```bash
 Copy code
 mvn clean install
-Configure the drivers in the src/main/resources/config.properties:
+```
+
+3.Configure the drivers in the src/main/resources/config.properties:
 
 properties
 Copy code
