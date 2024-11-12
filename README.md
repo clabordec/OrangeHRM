@@ -70,14 +70,19 @@ baseUrl=http://orangehrm-demo-6x.orangehrmlive.com/
 
 4. Update your WebDriver path (if necessary) for your browser (e.g., chromedriver, geckodriver for Firefox).
 
-How to Run Tests
-Using Maven
+<br>
+
+## How to Run Tests
+### Using Maven
 To run all the tests, simply execute the following command in the project root:
 
-bash
+```bash
 mvn test
 Using TestNG
+```
+
 You can also run tests directly from your IDE (like Eclipse or IntelliJ) by right-clicking the TestNG.xml file and selecting "Run As -> TestNG Suite".
+
 
 Running Tests in Different Browsers
 To run tests in different browsers, update the browser property in config.properties:
