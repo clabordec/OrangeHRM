@@ -49,7 +49,6 @@
 1. Clone the repository:
 
 ```bash
-Copy code
 git clone https://github.com/your-username/orangehrm-automation.git
 
 cd orangehrm-automation
@@ -58,14 +57,12 @@ cd orangehrm-automation
 2. Install dependencies using Maven:
 
 ```bash
-Copy code
 mvn clean install
 ```
 
 3. Configure the drivers in the src/main/resources/config.properties:
 
 ```properties
-Copy code
 browser=chrome
 driverPath=path/to/your/chromedriver
 baseUrl=http://orangehrm-demo-6x.orangehrmlive.com/
