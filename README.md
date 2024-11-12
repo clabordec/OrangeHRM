@@ -78,10 +78,10 @@ To run all the tests, simply execute the following command in the project root:
 
 ```bash
 mvn test
-Using TestNG
 ```
 
-You can also run tests directly from your IDE (like Eclipse or IntelliJ) by right-clicking the TestNG.xml file and selecting "Run As -> TestNG Suite".
+### Using TestNG
+You can also run tests directly from your IDE (like Eclipse or IntelliJ) by right-clicking the `TestNG.xml` file and selecting "Run As -> TestNG Suite".
 
 
 Running Tests in Different Browsers
