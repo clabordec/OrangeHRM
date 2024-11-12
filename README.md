@@ -62,14 +62,16 @@ Copy code
 mvn clean install
 ```
 
-3.Configure the drivers in the src/main/resources/config.properties:
+3. Configure the drivers in the src/main/resources/config.properties:
 
-properties
+```properties
 Copy code
 browser=chrome
 driverPath=path/to/your/chromedriver
 baseUrl=http://orangehrm-demo-6x.orangehrmlive.com/
-Update your WebDriver path (if necessary) for your browser (e.g., chromedriver, geckodriver for Firefox).
+```
+
+4. Update your WebDriver path (if necessary) for your browser (e.g., chromedriver, geckodriver for Firefox).
 
 How to Run Tests
 Using Maven
